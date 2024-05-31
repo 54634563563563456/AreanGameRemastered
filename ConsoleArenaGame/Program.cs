@@ -16,8 +16,8 @@ namespace ConsoleArenaGame
         {
             GameEngine gameEngine = new GameEngine()
             {
-                HeroA = new Knight("Knight", 10, 20, new Sword("Sword")),
-                HeroB = new Assassin("Assassin", 10, 5, new Dagger("Dagger")),
+                HeroA = new Electrodaragon("Electrodaragon", 10, 20, new Carambit("Carambit")),
+                HeroB = new Gormit("Gormit", 10, 5, new ButterflyKnife("ButterflyKnife")),              
                 NotificationsCallBack = ConsoleNotification
                 //NotificationsCallBack = args => Console.WriteLine($"{args.Attacker.Name} attacked {args.Defender.Name} with {args.Attack} and caused {args.Damage} damage.")
             };
